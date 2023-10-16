@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/158e097b9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <img src="image/LOGO1.png" class="logo">
+        <div class="audio-player">
+            <div class="audio-info">
+                <div class="audio-title">
+                    <img src="image/musik.jpg" alt="Gambar Lagu">
+                    <h3>Princess Samurai</h3>
+                    <p>StarBe (feat Kobo Kanaeru)</p>
+                </div>
+            </div>
+            <div class="audio-controls">
+                <audio controls preload="metadata">
+                    <source src="music/samurai.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>ZUNIAXE<br><span>WEB PROFILE</span></h1>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------- About Section ------------------------------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/foto linkedin.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtittle">About Me</h1>
+                <p><br>Hai, nama saya Dika Juniar, seorang mahasiswa informatika yang memiliki
+                    rencana jahat untuk mengguncang dunia digital! Selain cinta mendalam pada musik, film, anime,
+                    dan kucing (ya, kucing adalah makhluk ajaib), saya juga menggabungkan kemampuan saya sebagai
+                    UI/UX Designer, Front End Developer, dan Illustrator, untuk membawa sentuhan warna dan inovasi ke
+                    dunia digital ini. Sambil tetap terus mencari cara-cara kreatif untuk menggabungkan semua minat dan
+                    bakat saya, membuat karya-karya yang tidak hanya menghibur mata, tapi juga menginspirasi. Jadi, mari
+                    kita berpetualang bersama</p>
+                <div class="tab-tittle">
+                    <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-link" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX Designer</span><br>Designing Web/App Interface</li>
+                        <li><span>Front End Developer</span><br>WEB Development</li>
+                        <li><span>Illustrator</span><br>Drawing an Art</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>January 2021 - July 2021</span><br>UI/UX Designer - PPTIK ITB</li>
+                        <li><span>January 2018 - Now</span><br>Graphic Design Freelance</li>
+                        <li><span>January 2020 - Now</span><br>Illustration Freelance</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>July 2016 - July 2019</span><br>SMP SUMATRA 40</li>
+                        <li><span>July 2019 - July 2022</span><br>SMKN 2 Bandung - Multimedia</li>
+                        <li><span>September 2022 - Now</span><br>ITENAS - Informatics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------------- services -------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designs</h2>
+                <p>We create visually appealing websites 
+                    that reflect your brand identity and 
+                    captivate your target audience. 
+                    Our designs are unique, modern, 
+                    and tailored to your specific industry.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Digital Illustrations</h2>
+                <p>We create unique, handcrafted illustrations 
+                    tailored to your specific requirements. Whether
+                     it's character design, concept art, or any other 
+                     visual idea, we bring your imagination to the digital 
+                     canvas.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brush"></i>
+                <h2>Graphics Design</h2>
+                <p>Need eye-catching visuals for your brand? 
+                    We offer graphic design services for logos, 
+                    brochures, posters, and more. Let us help you
+                     make a lasting impression.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------ Portfolio Section ----------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtittle">My Works</h1>
+             <div class="worklist">
+                 <div class="work">
+                    <img src="image/work1.jpg">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </div>
+                 </div>
+                 
+                <div class="work">
+                    <img src="image/work2.jpg">
+                    <div class="layer">
+                        <h3>Illustration</h3>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </div>
+                </div>
+    </div>
+                    <div >
+                          <a href="#" class="btn">View More</a>
+                     </div>
+</div>
+</div>
+
+
+<!------------------------------- Contacts  -------------------------------------------->
+<div id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+           <h1 class="subtittle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>
+            dikajuniar0@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> 085172399604</p>
+            <div class="social-icon">
+            <a href="https://facebook.com"target="blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/zuniaxe/"target="blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=085172399604&text&type=phone_number&app_absent=0"target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="image/cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>dika juniar | zuniaxe production</p>
+
+        </div>
+
+<script>
+    var tablinks = document.querySelectorAll(".tab-link");
+    var tabcontents = document.querySelectorAll(".tab-contents");
+
+    function opentab(tabname) {
+        tablinks.forEach(function (tablink) {
+            tablink.classList.remove("active-link");
+        });
+        tabcontents.forEach(function (tabcontent) {
+            tabcontent.classList.remove("active-tab");
+        });
+        document.querySelector("#" + tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+</script>
+</body>
+</html>
